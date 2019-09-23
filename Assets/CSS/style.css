@@ -1,5 +1,12 @@
 #header {
     height: 50px;
+    width: 960px;
+    background: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 
 }
 
@@ -10,43 +17,93 @@
 #About {
     float: right;
     width: 100px;
-    height: 50px;
+    height: 25px;
     margin-right: 10px;
+    margin-left: 10px;
     padding-right: 10px;
     border-right: gray;
-    border-block-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: gray;
+    border-right-style: solid;
+    
+
 }
 
 #Portfolio {
     float: right;
     width: 100px;
-    height: 50px;
+    height: 25px;
     margin-right: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
     border-right: gray;
-    border-block-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: gray;
+    border-right-style: solid;
 }
 
 #Contact {
     float: right;
-    width: 100px;
-    height: 50px;
-    margin-right: 10px;
+    width: auto;
+    height: 25px;
+    margin-left: 10px;
     padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-right: gray;
     border-block-width: 2px;
+    padding-top: 5px;
 }
 
-body {
+#bio1 {
     width: 960px;
     height: auto;
+    margin-bottom: 0;
     margin-left: 200px;
     margin-right: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: lightgray;
+    position: relative;
+
+}
+
+#bio2 {
+    width: 960px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: lightgray;
+    position: relative;
+}
+
+#AboutHeading {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
 }
 
 img {
+    position: relative;
     width: 150px;
     height: 200px;
+    clear: both;
+    float: left;
+    margin: 15px;
+}
+
+p {
+    text-align: justify;
 }
