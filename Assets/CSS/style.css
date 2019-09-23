@@ -1,0 +1,52 @@
+#header {
+    height: 50px;
+
+}
+
+#name {
+    float: left;
+}
+
+#About {
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: gray;
+    border-block-width: 2px;
+}
+
+#Portfolio {
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: gray;
+    border-block-width: 2px;
+}
+
+#Contact {
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: gray;
+    border-block-width: 2px;
+}
+
+body {
+    width: 960px;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
