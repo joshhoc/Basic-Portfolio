@@ -1,13 +1,20 @@
-#header {
+
+header {
+    position: fixed;
+    top: 0px;
     height: 50px;
-    width: 960px;
     background: white;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
 
+}
 
+#top-container {
+    position:
+    width: 960px;
+    margin-left: 25%;
+    margin-right: 25%;
+    float: center;
 }
 
 #name {
@@ -63,7 +70,11 @@
     padding-top: 5px;
 }
 
-#bio1 {
+#background {
+    width: 100%;
+}
+
+#bio {
     width: 960px;
     height: auto;
     margin-bottom: 0;
@@ -71,28 +82,14 @@
     margin-right: 200px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     background: lightgray;
     position: relative;
 
-}
-
-#bio2 {
-    width: 960px;
-    height: auto;
-    margin-top: 0;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: lightgray;
-    position: relative;
 }
 
 #AboutHeading {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    
+
 }
 
 img {
@@ -106,4 +103,10 @@ img {
 
 p {
     text-align: justify;
+}
+
+footer {
+    width: 100%;
+    background: white;
+    color: black;
 }
